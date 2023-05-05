@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444ae0b83067e774e9a26012470f4c8c, type: 3}
+  m_Name: SellerItemsConfig
+  m_EditorClassIdentifier: 
+  _configItems:
+  - _name: Dark sword
+    _price: 134
+    _view: {fileID: 21300000, guid: d5ab6ea498c4d064781b7c052c6b6a2a, type: 3}
+  - _name: Manticore sword
+    _price: 254
+    _view: {fileID: 21300000, guid: 158be32ff2ccad14e8831bd617f89478, type: 3}
+  - _name: Manticore armor
+    _price: 450
+    _view: {fileID: 21300000, guid: d359cffafe45e0e4c82527e85234799b, type: 3}
+  - _name: Battleguard armor
+    _price: 345
+    _view: {fileID: 21300000, guid: 28b103e16acf21b45afc90eb7afb7e42, type: 3}
+  - _name: Woodcutter axe
+    _price: 75
+    _view: {fileID: 21300000, guid: 556def944fd02f54c98ac89a1fd817a7, type: 3}
+  - _name: Viking axe
+    _price: 200
+    _view: {fileID: 21300000, guid: eab93444844589c40a72574411dd0120, type: 3}
+  - _name: Gladiator shield
+    _price: 150
+    _view: {fileID: 21300000, guid: d1debd018f9877c408ca2c35857bb8c2, type: 3}
+  - _name: Apple
+    _price: 10
+    _view: {fileID: 21300000, guid: 60c1d42986dc0094c808b9e135f31ba2, type: 3}
+  - _name: Cheese
+    _price: 20
+    _view: {fileID: 21300000, guid: e41335ed24c5d4641b9e03ec7a6adcd0, type: 3}
+  - _name: Marauder arrow
+    _price: 30
+    _view: {fileID: 21300000, guid: 2624c48670f92d649b04d03fe36abcd8, type: 3}
+  - _name: Magic golden ring
+    _price: 500
+    _view: {fileID: 21300000, guid: f66c057114b8725409847a8a8e83a75b, type: 3}
+  _playerBalanceModel:
+    _balance: 1452
