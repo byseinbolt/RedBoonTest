@@ -1,7 +1,7 @@
 using SimpleEventBus.Events;
 using UnityEngine;
 
-namespace Events
+namespace SellerTestScripts.Events
 {
     public class PointerEnteredItemEvent : EventBase
     {

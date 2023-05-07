@@ -1,11 +1,11 @@
-﻿using Events;
-using Models;
-using Services.Interfaces;
+﻿using SellerTestScripts.Events;
+using SellerTestScripts.Models;
+using SellerTestScripts.Services.Interfaces;
+using SellerTestScripts.Views;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using Views;
 
-namespace Controllers
+namespace SellerTestScripts.Controllers
 {
     public class ItemController : MonoBehaviour, IPointerEnterHandler
     {

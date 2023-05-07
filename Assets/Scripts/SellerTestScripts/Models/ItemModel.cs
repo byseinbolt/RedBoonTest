@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Models
+namespace SellerTestScripts.Models
 {
     public class ItemModel
     {

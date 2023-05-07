@@ -1,4 +1,4 @@
-﻿namespace Services.Interfaces
+﻿namespace SellerTestScripts.Services.Interfaces
 {
     public interface IService
     {

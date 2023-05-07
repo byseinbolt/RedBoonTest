@@ -1,7 +1,7 @@
-using Services.Interfaces;
+using SellerTestScripts.Services.Interfaces;
 using UnityEngine;
 
-namespace Services
+namespace SellerTestScripts.Services
 {
     public class RecalculationService : IRecalculationService
     { 

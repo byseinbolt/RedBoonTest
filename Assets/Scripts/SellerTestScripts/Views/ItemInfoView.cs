@@ -1,11 +1,11 @@
 using System;
 using System.Globalization;
-using Events;
+using SellerTestScripts.Events;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Views
+namespace SellerTestScripts.Views
 {
     public class ItemInfoView : MonoBehaviour
     {

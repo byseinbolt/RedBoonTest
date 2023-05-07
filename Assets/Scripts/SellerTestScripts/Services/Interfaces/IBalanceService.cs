@@ -1,6 +1,6 @@
 using System;
 
-namespace Services.Interfaces
+namespace SellerTestScripts.Services.Interfaces
 {
     public interface IBalanceService : IService
     {

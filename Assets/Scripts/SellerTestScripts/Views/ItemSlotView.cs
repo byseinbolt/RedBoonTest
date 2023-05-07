@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Views
+namespace SellerTestScripts.Views
 {
     public class ItemSlotView : MonoBehaviour, IBeginDragHandler, IDragHandler,
         IEndDragHandler

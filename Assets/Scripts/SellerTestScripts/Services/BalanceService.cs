@@ -1,7 +1,7 @@
 using System;
-using Services.Interfaces;
+using SellerTestScripts.Services.Interfaces;
 
-namespace Services
+namespace SellerTestScripts.Services
 {
     public class BalanceService : IBalanceService
     {

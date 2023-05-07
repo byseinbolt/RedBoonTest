@@ -1,7 +1,7 @@
 ﻿using SimpleEventBus;
 using SimpleEventBus.Interfaces;
 
-namespace Events
+namespace SellerTestScripts.Events
 {
     public static class EventStreams
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Models
+namespace SellerTestScripts.Models
 {
    [CreateAssetMenu(menuName = "SellerItemsConfig", fileName = "SellerItemsConfig")]
    public class SellerItemsConfig : ScriptableObject

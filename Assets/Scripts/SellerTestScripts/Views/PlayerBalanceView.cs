@@ -1,9 +1,9 @@
 ﻿using System.Globalization;
-using Services.Interfaces;
+using SellerTestScripts.Services.Interfaces;
 using TMPro;
 using UnityEngine;
 
-namespace Views
+namespace SellerTestScripts.Views
 {
     public class PlayerBalanceView : MonoBehaviour
     {

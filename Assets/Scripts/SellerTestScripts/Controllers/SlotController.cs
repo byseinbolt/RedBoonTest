@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Controllers
+namespace SellerTestScripts.Controllers
 {
     public class SlotController : MonoBehaviour, IDropHandler
     {
@@ -10,10 +10,11 @@ namespace Controllers
         public void OnDrop(PointerEventData eventData)
         {
             var otherObject = eventData.pointerDrag;
-            _previousSlotTag = otherObject.transform.parent.tag;
             
             if (otherObject.TryGetComponent<ItemController>(out var itemController))
             {
+                _previousSlotTag = otherObject.transform.parent.tag;
+
                 if (IsSellerItem(itemController)) return;
                 if (IsNotAffordable(itemController)) return;
                 PutInSlot(otherObject);

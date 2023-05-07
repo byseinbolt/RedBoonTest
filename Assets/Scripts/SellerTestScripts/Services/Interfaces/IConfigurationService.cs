@@ -1,6 +1,6 @@
-﻿using Models;
+﻿using SellerTestScripts.Models;
 
-namespace Services.Interfaces
+namespace SellerTestScripts.Services.Interfaces
 {
     public interface IConfigurationService : IService
     {
