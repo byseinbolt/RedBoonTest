@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Resources.DownloadAssets.FantasyIconsPackFree.Demo
+namespace Resources.SellerScene.DownloadAssets.FantasyIconsPackFree.Demo
 {
 	/// <summary>
 	/// Creates a grid view with icons.

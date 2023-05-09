@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Resources.DownloadAssets.FantasyIconsPackFree.Demo
+namespace Resources.SellerScene.DownloadAssets.FantasyIconsPackFree.Demo
 {
     public static class Extensions
     {
