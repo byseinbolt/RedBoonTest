@@ -58,7 +58,7 @@ namespace PathFindingScripts
                 }
             }
 
-            var min = new Vector2(minX, minX);
+            var min = new Vector2(minX, minY);
             var max = new Vector2(maxX, maxY);
             var rectangle = new Rectangle(min, max);
             return rectangle;
