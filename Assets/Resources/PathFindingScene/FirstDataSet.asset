@@ -19,15 +19,15 @@ MonoBehaviour:
     _second:
       _min: {x: 3, y: 3}
       _max: {x: 7, y: 6}
-    _start: {x: 6, y: 2, z: 0}
-    _end: {x: 12, y: 10, z: 0}
+    _start: {x: 0, y: 0, z: 0}
+    _end: {x: 0, y: 0, z: 0}
   - _first:
       _min: {x: 3, y: 3}
       _max: {x: 7, y: 6}
     _second:
       _min: {x: 7, y: 1}
-      _max: {x: 12, y: 10}
-    _start: {x: 8, y: 3, z: 0}
-    _end: {x: 7, y: 3, z: 0}
+      _max: {x: 11, y: 4}
+    _start: {x: 0, y: 0, z: 0}
+    _end: {x: 0, y: 0, z: 0}
   _start: {x: 0, y: 0, z: 0}
   _end: {x: 11, y: 4, z: 0}

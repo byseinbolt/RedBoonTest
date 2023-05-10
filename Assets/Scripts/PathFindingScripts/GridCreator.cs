@@ -95,7 +95,7 @@ namespace PathFindingScripts
             var y = Mathf.RoundToInt((_nodeCountY - 1) * percentY);
             return _grid[x, y];
         }
-    
+        
         private void OnDrawGizmos()
         {
             if (_grid == null) return;

@@ -27,7 +27,7 @@ namespace PathFindingScripts
                 }
             }
         }
-    
+        
         public Rectangle GetGridWorldSize()
         {
             var minX = float.MaxValue;

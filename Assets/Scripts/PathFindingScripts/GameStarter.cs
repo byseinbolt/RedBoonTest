@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace PathFindingScripts
 {
@@ -18,17 +19,20 @@ namespace PathFindingScripts
         private AStar _aStar;
         
         private IEnumerable<Vector2> _path;
+        
         private void Awake()
         {
             IPathFinder pathFinder = new PathFinder(_planeCreator, _gridCreator, _aStar);
-            _path = pathFinder.GetPath(_config.Start, _config.End, _config.Edges);
-            var count = 1;
+            _path = pathFinder.GetPath(_config.Start, _config.End,
+                _config.Edges);
             
+            var count = 1;
             foreach (var vector2 in _path)
             {
                 Debug.Log($"Точка номер {count}. Координаты: Х = {vector2.x} Y = {vector2.y}");
                 count++;
             }
+            Debug.Log($"САМЫЙ КОРОТКИЙ ПУТЬ ПРОЛЕГАЕТ ЧЕРЕЗ {count} ТОЧЕК");
         }
     }
 }
