@@ -57,12 +57,10 @@ namespace PathFindingScripts
                     maxY = drewRectangle.Max.y;
                 }
             }
-    
-            var rectangle = new Rectangle
-            {
-                Min = new Vector2(minX, minY),
-                Max = new Vector2(maxX, maxY)
-            };
+
+            var min = new Vector2(minX, minX);
+            var max = new Vector2(maxX, maxY);
+            var rectangle = new Rectangle(min, max);
             return rectangle;
         }
 

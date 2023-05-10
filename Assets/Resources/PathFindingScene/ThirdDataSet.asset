@@ -13,37 +13,37 @@ MonoBehaviour:
   m_Name: ThirdDataSet
   m_EditorClassIdentifier: 
   _edges:
-  - First:
-      Min: {x: 0, y: 0}
-      Max: {x: 4, y: 2}
-    Second:
-      Min: {x: 3, y: 2}
-      Max: {x: 7, y: 4}
-    Start: {x: 0, y: 0, z: 0}
-    End: {x: 0, y: 0, z: 0}
-  - First:
-      Min: {x: 3, y: 2}
-      Max: {x: 7, y: 4}
-    Second:
-      Min: {x: 0, y: 3}
-      Max: {x: 3, y: 5}
-    Start: {x: 0, y: 0, z: 0}
-    End: {x: 0, y: 0, z: 0}
-  - First:
-      Min: {x: 0, y: 3}
-      Max: {x: 3, y: 5}
-    Second:
-      Min: {x: 2, y: 5}
-      Max: {x: 5, y: 7}
-    Start: {x: 0, y: 0, z: 0}
-    End: {x: 0, y: 0, z: 0}
-  - First:
-      Min: {x: 2, y: 5}
-      Max: {x: 5, y: 7}
-    Second:
-      Min: {x: 4, y: 7}
-      Max: {x: 7, y: 9}
-    Start: {x: 0, y: 0, z: 0}
-    End: {x: 0, y: 0, z: 0}
-  _start: {x: 0, y: 0, z: 0}
+  - _first:
+      _min: {x: 0, y: 0}
+      _max: {x: 4, y: 2}
+    _second:
+      _min: {x: 3, y: 2}
+      _max: {x: 7, y: 4}
+    _start: {x: 0, y: 0, z: 0}
+    _end: {x: 0, y: 0, z: 0}
+  - _first:
+      _min: {x: 3, y: 2}
+      _max: {x: 7, y: 4}
+    _second:
+      _min: {x: 0, y: 3}
+      _max: {x: 3, y: 5}
+    _start: {x: 0, y: 0, z: 0}
+    _end: {x: 0, y: 0, z: 0}
+  - _first:
+      _min: {x: 0, y: 3}
+      _max: {x: 3, y: 5}
+    _second:
+      _min: {x: 2, y: 5}
+      _max: {x: 5, y: 7}
+    _start: {x: 0, y: 0, z: 0}
+    _end: {x: 0, y: 0, z: 0}
+  - _first:
+      _min: {x: 2, y: 5}
+      _max: {x: 5, y: 7}
+    _second:
+      _min: {x: 4, y: 7}
+      _max: {x: 7, y: 9}
+    _start: {x: 0, y: 0, z: 0}
+    _end: {x: 0, y: 0, z: 0}
+  _start: {x: 7, y: 3, z: 0}
   _end: {x: 7, y: 9, z: 0}

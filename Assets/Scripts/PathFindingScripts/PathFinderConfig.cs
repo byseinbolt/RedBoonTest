@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace PathFindingScripts
@@ -7,7 +6,7 @@ namespace PathFindingScripts
     [CreateAssetMenu(menuName = "PathFinderConfig", fileName = "PathFinderConfig")]
     public class PathFinderConfig : ScriptableObject
     {
-        public List<Edge> Edges => _edges;
+        public IEnumerable<Edge> Edges => _edges;
         
         public Vector3 Start => _start;
         

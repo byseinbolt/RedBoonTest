@@ -404,12 +404,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ec03baa9b1478780e5951a9f312c51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _config: {fileID: 11400000, guid: 351b41c6eb0b46143918cdd6de543f94, type: 2}
+  _config: {fileID: 11400000, guid: 52925fcff7db0c9459a17e7bb86183c2, type: 2}
   _planeCreator: {fileID: 1986291689}
   _gridCreator: {fileID: 1986291692}
   _aStar: {fileID: 1986291693}
-  _seeker: {fileID: 1673344299}
-  _target: {fileID: 1384667367}
 --- !u!4 &1986291691
 Transform:
   m_ObjectHideFlags: 0

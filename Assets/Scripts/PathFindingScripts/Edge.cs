@@ -1,21 +1,28 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace PathFindingScripts
 {
     [Serializable]
     public struct Edge
     {
-        [SerializeField]
-        public Rectangle First;
+        public Rectangle First => _first;
+        public Rectangle Second => _second;
+
+        public Vector3 Start => _start;
+        public Vector3 End => _end;
         
         [SerializeField]
-        public Rectangle Second;
+        private Rectangle _first;
         
         [SerializeField]
-        public Vector3 Start;
+        private Rectangle _second;
         
         [SerializeField]
-        public Vector3 End;
+        private Vector3 _start;
+        
+        [SerializeField]
+        private Vector3 _end;
     }
 }

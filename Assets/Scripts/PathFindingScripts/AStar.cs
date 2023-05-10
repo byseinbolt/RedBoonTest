@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace PathFindingScripts
@@ -58,7 +57,6 @@ namespace PathFindingScripts
                     }
                 }
             }
-
             return new List<Node>();
         }
 
@@ -92,7 +90,7 @@ namespace PathFindingScripts
             return Mathf.Sqrt(powX + powY);
         }
 
-        public List<Node> GetPath(Node endNode)
+        private List<Node> GetPath(Node endNode)
         {
             var path = new List<Node>();
             var currentNode = endNode;

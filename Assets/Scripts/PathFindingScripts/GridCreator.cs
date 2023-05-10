@@ -90,8 +90,7 @@ namespace PathFindingScripts
             var percentY = worldPosition.z  / _gridWorldSize.y;
             percentX = Mathf.Clamp01(percentX);
             percentY = Mathf.Clamp01(percentY);
-        
-
+            
             var x = Mathf.RoundToInt((_nodeCountX - 1) * percentX);
             var y = Mathf.RoundToInt((_nodeCountY - 1) * percentY);
             return _grid[x, y];
@@ -104,18 +103,16 @@ namespace PathFindingScripts
             foreach (var node in _grid)
             {
                 Gizmos.color = node.Walkable ? Color.white : Color.red;
-
+                
                 if (Path != null)
                 {
                     if (Path.Contains(node))
                     {
-                        Gizmos.color = Color.black;
+                        Gizmos.color = Color.green;
                     }
                 }
-
                 Gizmos.DrawCube(node.WorldPosition, Vector3.one * (_nodeDiameter - 0.1f));
             }
         }
-    
     }
 }

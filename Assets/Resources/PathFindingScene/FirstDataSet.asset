@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: FirstDataSet
   m_EditorClassIdentifier: 
   _edges:
-  - First:
-      Min: {x: 0, y: 0}
-      Max: {x: 6, y: 4}
-    Second:
-      Min: {x: 6, y: 2}
-      Max: {x: 12, y: 10}
-    Start: {x: 3, y: 3, z: 0}
-    End: {x: 4, y: 3, z: 0}
-  - First:
-      Min: {x: 6, y: 2}
-      Max: {x: 12, y: 10}
-    Second:
-      Min: {x: 12, y: 8}
-      Max: {x: 17, y: 9}
-    Start: {x: 8, y: 3, z: 0}
-    End: {x: 7, y: 3, z: 0}
-  _start: {x: 17, y: 9, z: 0}
-  _end: {x: 6, y: 0, z: 0}
+  - _first:
+      _min: {x: 0, y: 0}
+      _max: {x: 4, y: 3}
+    _second:
+      _min: {x: 3, y: 3}
+      _max: {x: 7, y: 6}
+    _start: {x: 6, y: 2, z: 0}
+    _end: {x: 12, y: 10, z: 0}
+  - _first:
+      _min: {x: 3, y: 3}
+      _max: {x: 7, y: 6}
+    _second:
+      _min: {x: 7, y: 1}
+      _max: {x: 12, y: 10}
+    _start: {x: 8, y: 3, z: 0}
+    _end: {x: 7, y: 3, z: 0}
+  _start: {x: 0, y: 0, z: 0}
+  _end: {x: 11, y: 4, z: 0}
